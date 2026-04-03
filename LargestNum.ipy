@@ -1,0 +1,10 @@
+Num1 = int(input("Enter a Num"))
+Num2 = int(input("Enter a Num"))
+Num3 = int(input("Enter a Num"))
+
+if Num1 > Num2 and Num1 > Num3: 
+    print ("The largest out of 3: ", Num1)
+if Num2 > Num1 and Num2 > Num3: 
+    print ("The largest out of 3: ", Num2)
+if Num3 > Num2 and Num3 > Num1: 
+    print ("The largest out of 3: ", Num3)
