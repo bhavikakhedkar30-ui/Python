@@ -1,0 +1,14 @@
+num = 12
+
+ecount = 0
+odcount = 0
+
+for i in range(1, num + 1):
+    if num % i == 0:  
+        if i % 2 == 0:
+            ecount += 1
+        else:
+           odcount += 1
+
+print("Even factors:", ecount)
+print("Odd factors:", odcount)
