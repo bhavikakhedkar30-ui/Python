@@ -12,3 +12,6 @@ for i in range(1, num + 1):
 
 print("Even factors:", ecount)
 print("Odd factors:", odcount)
+
+# when parameter isnt passed in range 
+# when value is declared 0 

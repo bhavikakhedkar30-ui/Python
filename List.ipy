@@ -1,0 +1,11 @@
+list = [1,2,3,"hello",5.7]
+
+for i in range(len(list)):
+    print(list[i],end= " ")
+    # create empty list
+    
+    lst =[]
+    lst1 = lst()
+    print(lst)
+    
+    #step pos -> left to right  default vaule -> 0  and opposite for negative default vaule -> lenghth of list
