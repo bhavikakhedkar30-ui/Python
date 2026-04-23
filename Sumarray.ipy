@@ -1,0 +1,8 @@
+lst = [[1, 2], [3, 4], [5, 6]]
+
+result = []
+
+for sublist in lst:
+    result.append(sum(sublist))
+
+print(result)
